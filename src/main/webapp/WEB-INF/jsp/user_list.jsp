@@ -4,12 +4,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<h1><spring:message code="user.list"/>Demo</h1>
-<ul>
+<h1><spring:message code="user.list"/></h1>
+<ul  type="disc;">
     <%--@elvariable id="users" type="java.util.List"--%>
     <c:forEach items="${users}" var="user">
-        <li>
-            User <c:out value="${user.getId()}"/>
+        <li style="background: #ffe5e5; padding: 5px; margin-left: 35px;">
+            <c:out value="${user.getId()}"/>
         </li>
     </c:forEach>
 </ul>
