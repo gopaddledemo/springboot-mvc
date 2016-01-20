@@ -10,7 +10,7 @@
     <%--@elvariable id="users" type="java.util.List"--%>
     <c:forEach items="${users}" var="user">
         <li style="background: #ffe5e5; padding: 5px; margin-left: 35px;">
-            <c:out value="${user.getId()}"/>
+          User  <c:out value="${user.getId()}"/>
         </li>
     </c:forEach>
 </ul>
