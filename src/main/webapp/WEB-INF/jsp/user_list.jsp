@@ -6,7 +6,7 @@
 <body>
 <h1 align="center">Demo Application : Continuous Delivery using goPaddle</h1>
 <h2><spring:message code="user.list"/></h2>
-<ul  type="disc;" style="background: #ff9999;padding: 5px;”>
+<ul  type="disc;" style="background: #ff9999;padding: 5px;">
     <%--@elvariable id="users" type="java.util.List"--%>
     <c:forEach items="${users}" var="user">
         <li style="background: #ffe5e5; padding: 5px; margin-left: 35px;">
